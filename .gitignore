@@ -1,3 +1,7 @@
+# parquet files to avoid uploading the dataset files
+.parquet
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
