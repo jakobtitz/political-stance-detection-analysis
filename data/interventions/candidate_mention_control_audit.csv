@@ -1331,7 +1331,7 @@ example,post,target,requested_tokens,available_control_tokens,removed_tokens,sho
 177,6,Trump,1,29,1,0,True,1
 178,0,Trump,0,5,0,0,True,1
 178,1,Trump,2,48,2,0,True,1
-178,2,Trump,3,48,3,0,True,1
+178,2,Trump,2,48,2,0,True,1
 178,3,Trump,1,29,1,0,True,1
 178,4,Trump,2,9,2,0,True,1
 178,5,Trump,1,55,1,0,True,1
@@ -2578,7 +2578,7 @@ example,post,target,requested_tokens,available_control_tokens,removed_tokens,sho
 346,2,Trump,0,36,0,0,True,1
 346,3,Trump,0,40,0,0,True,1
 346,4,Trump,0,16,0,0,True,1
-346,5,Trump,2,38,2,0,True,1
+346,5,Trump,1,38,1,0,True,1
 346,6,Trump,1,39,1,0,True,1
 347,0,Trump,0,14,0,0,True,1
 347,1,Trump,0,26,0,0,True,1
@@ -8160,7 +8160,7 @@ example,post,target,requested_tokens,available_control_tokens,removed_tokens,sho
 177,6,Trump,1,29,1,0,True,2
 178,0,Trump,0,5,0,0,True,2
 178,1,Trump,2,48,2,0,True,2
-178,2,Trump,3,48,3,0,True,2
+178,2,Trump,2,48,2,0,True,2
 178,3,Trump,1,29,1,0,True,2
 178,4,Trump,2,9,2,0,True,2
 178,5,Trump,1,55,1,0,True,2
@@ -9407,7 +9407,7 @@ example,post,target,requested_tokens,available_control_tokens,removed_tokens,sho
 346,2,Trump,0,36,0,0,True,2
 346,3,Trump,0,40,0,0,True,2
 346,4,Trump,0,16,0,0,True,2
-346,5,Trump,2,38,2,0,True,2
+346,5,Trump,1,38,1,0,True,2
 346,6,Trump,1,39,1,0,True,2
 347,0,Trump,0,14,0,0,True,2
 347,1,Trump,0,26,0,0,True,2
@@ -14989,7 +14989,7 @@ example,post,target,requested_tokens,available_control_tokens,removed_tokens,sho
 177,6,Trump,1,29,1,0,True,3
 178,0,Trump,0,5,0,0,True,3
 178,1,Trump,2,48,2,0,True,3
-178,2,Trump,3,48,3,0,True,3
+178,2,Trump,2,48,2,0,True,3
 178,3,Trump,1,29,1,0,True,3
 178,4,Trump,2,9,2,0,True,3
 178,5,Trump,1,55,1,0,True,3
@@ -16236,7 +16236,7 @@ example,post,target,requested_tokens,available_control_tokens,removed_tokens,sho
 346,2,Trump,0,36,0,0,True,3
 346,3,Trump,0,40,0,0,True,3
 346,4,Trump,0,16,0,0,True,3
-346,5,Trump,2,38,2,0,True,3
+346,5,Trump,1,38,1,0,True,3
 346,6,Trump,1,39,1,0,True,3
 347,0,Trump,0,14,0,0,True,3
 347,1,Trump,0,26,0,0,True,3
@@ -21818,7 +21818,7 @@ example,post,target,requested_tokens,available_control_tokens,removed_tokens,sho
 177,6,Trump,1,29,1,0,True,4
 178,0,Trump,0,5,0,0,True,4
 178,1,Trump,2,48,2,0,True,4
-178,2,Trump,3,48,3,0,True,4
+178,2,Trump,2,48,2,0,True,4
 178,3,Trump,1,29,1,0,True,4
 178,4,Trump,2,9,2,0,True,4
 178,5,Trump,1,55,1,0,True,4
@@ -23065,7 +23065,7 @@ example,post,target,requested_tokens,available_control_tokens,removed_tokens,sho
 346,2,Trump,0,36,0,0,True,4
 346,3,Trump,0,40,0,0,True,4
 346,4,Trump,0,16,0,0,True,4
-346,5,Trump,2,38,2,0,True,4
+346,5,Trump,1,38,1,0,True,4
 346,6,Trump,1,39,1,0,True,4
 347,0,Trump,0,14,0,0,True,4
 347,1,Trump,0,26,0,0,True,4
@@ -28647,7 +28647,7 @@ example,post,target,requested_tokens,available_control_tokens,removed_tokens,sho
 177,6,Trump,1,29,1,0,True,5
 178,0,Trump,0,5,0,0,True,5
 178,1,Trump,2,48,2,0,True,5
-178,2,Trump,3,48,3,0,True,5
+178,2,Trump,2,48,2,0,True,5
 178,3,Trump,1,29,1,0,True,5
 178,4,Trump,2,9,2,0,True,5
 178,5,Trump,1,55,1,0,True,5
@@ -29894,7 +29894,7 @@ example,post,target,requested_tokens,available_control_tokens,removed_tokens,sho
 346,2,Trump,0,36,0,0,True,5
 346,3,Trump,0,40,0,0,True,5
 346,4,Trump,0,16,0,0,True,5
-346,5,Trump,2,38,2,0,True,5
+346,5,Trump,1,38,1,0,True,5
 346,6,Trump,1,39,1,0,True,5
 347,0,Trump,0,14,0,0,True,5
 347,1,Trump,0,26,0,0,True,5

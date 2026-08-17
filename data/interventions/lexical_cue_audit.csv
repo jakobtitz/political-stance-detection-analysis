@@ -1,0 +1,151 @@
+target,label,phrase,rank,df_class,users_with_cue,matching_posts,distinct_post_texts,most_common_post_count,dominant_post_share
+Harris,Favor,felons and,1,74,74,74,3,72,0.972972972972973
+Harris,Favor,way my,2,73,73,73,2,72,0.9863013698630136
+Harris,Favor,against adjudicated,3,72,72,72,1,72,1.0
+Harris,Favor,and insurrection,4,72,72,72,1,72,1.0
+Harris,Favor,inciting racists,5,72,72,72,1,72,1.0
+Harris,Favor,insurrection inciting,6,72,72,72,1,72,1.0
+Harris,Favor,racists always,7,72,72,72,1,72,1.0
+Harris,Favor,rapists convicted,8,72,72,72,1,72,1.0
+Harris,Favor,vote cast,9,72,72,72,1,72,1.0
+Harris,Favor,about dem,10,37,37,37,2,36,0.972972972972973
+Harris,Favor,and eloquently,11,36,36,36,1,36,1.0
+Harris,Favor,beautifully and,12,36,36,36,1,36,1.0
+Harris,Favor,result isn,13,36,36,36,1,36,1.0
+Harris,Favor,they delivered,14,36,36,36,1,36,1.0
+Harris,Favor,cast my,15,31,31,31,11,21,0.6774193548387096
+Harris,Favor,and expect,16,30,30,30,2,29,0.9666666666666667
+Harris,Favor,asshole but,17,29,29,29,1,29,1.0
+Harris,Favor,earnest or,18,29,29,29,1,29,1.0
+Harris,Favor,easily undo,19,29,29,29,1,29,1.0
+Harris,Favor,fascism am,20,29,29,29,1,29,1.0
+Harris,Favor,good only,21,29,29,29,1,29,1.0
+Harris,Favor,headed right,22,29,29,29,1,29,1.0
+Harris,Favor,only under,23,29,29,29,1,29,1.0
+Harris,Favor,sounding too,24,29,29,29,1,29,1.0
+Harris,Favor,too earnest,25,29,29,29,1,29,1.0
+Harris,Against,internal,1,10,10,10,7,3,0.3
+Harris,Against,genocide in,2,14,14,15,11,3,0.2
+Harris,Against,the genocide,3,27,27,31,28,2,0.06451612903225806
+Harris,Against,for genocide,4,12,12,13,10,3,0.23076923076923078
+Harris,Against,center right,5,10,10,11,7,5,0.45454545454545453
+Harris,Against,genocidal,6,11,11,12,12,1,0.08333333333333333
+Harris,Against,yelling at,7,11,11,11,3,8,0.7272727272727273
+Harris,Against,does she,8,10,10,10,3,8,0.8
+Harris,Against,lost and,9,10,10,10,9,2,0.2
+Harris,Against,on trans,10,11,11,11,10,2,0.18181818181818182
+Harris,Against,her support,11,16,16,16,11,3,0.1875
+Harris,Against,or anyone,12,12,12,12,5,8,0.6666666666666666
+Harris,Against,the main,13,13,13,13,6,8,0.6153846153846154
+Harris,Against,rashida,14,14,14,15,12,3,0.2
+Harris,Against,the democrat,15,21,21,25,24,2,0.08
+Harris,Against,left to,16,12,12,12,5,8,0.6666666666666666
+Harris,Against,rashida tlaib,17,12,12,13,10,3,0.23076923076923078
+Harris,Against,genocide and,18,13,13,13,12,2,0.15384615384615385
+Harris,Against,genocide,19,96,96,127,114,3,0.023622047244094488
+Harris,Against,too woke,20,12,12,12,7,4,0.3333333333333333
+Harris,Against,committing,21,11,11,11,11,1,0.09090909090909091
+Harris,Against,into her,22,10,10,10,4,7,0.7
+Harris,Against,me or,23,13,13,13,6,8,0.6153846153846154
+Harris,Against,anyone on,24,10,10,10,3,8,0.8
+Harris,Against,palestinians,25,26,26,29,24,4,0.13793103448275862
+Harris,Neither,eu,1,20,20,25,22,3,0.12
+Harris,Neither,name from,2,19,19,20,18,3,0.15
+Harris,Neither,taps,3,15,15,15,14,2,0.13333333333333333
+Harris,Neither,house ethics,4,14,14,15,15,1,0.06666666666666667
+Harris,Neither,carr,5,13,13,13,13,1,0.07692307692307693
+Harris,Neither,commission,6,13,13,13,13,1,0.07692307692307693
+Harris,Neither,gaetz says,7,13,13,13,12,2,0.15384615384615385
+Harris,Neither,merkel,8,13,13,13,13,1,0.07692307692307693
+Harris,Neither,as nancy,9,12,12,12,2,11,0.9166666666666666
+Harris,Neither,bhattacharya,10,12,12,14,13,2,0.14285714285714285
+Harris,Neither,former florida,11,12,12,12,12,1,0.08333333333333333
+Harris,Neither,anything as,12,11,11,11,1,11,1.0
+Harris,Neither,deputy,13,11,11,11,10,2,0.18181818181818182
+Harris,Neither,let him,14,11,11,11,11,1,0.09090909090909091
+Harris,Neither,mace cares,15,11,11,11,1,11,1.0
+Harris,Neither,the deep,16,11,11,12,12,1,0.08333333333333333
+Harris,Neither,treasury secretary,17,11,11,11,11,1,0.09090909090909091
+Harris,Neither,wish cared,18,11,11,11,1,11,1.0
+Harris,Neither,withdraws his,19,11,11,11,11,1,0.09090909090909091
+Harris,Neither,angela merkel,20,10,10,10,10,1,0.1
+Harris,Neither,australia,21,10,10,10,10,1,0.1
+Harris,Neither,brendan,22,10,10,10,10,1,0.1
+Harris,Neither,brendan carr,23,10,10,10,10,1,0.1
+Harris,Neither,ellen,24,10,10,10,9,2,0.2
+Harris,Neither,his pick,25,10,10,11,11,1,0.09090909090909091
+Trump,Favor,libtards,1,10,10,12,12,1,0.08333333333333333
+Trump,Favor,leftists,2,10,10,12,12,1,0.08333333333333333
+Trump,Favor,great again,3,15,15,18,17,2,0.1111111111111111
+Trump,Favor,america great,4,11,11,14,13,2,0.14285714285714285
+Trump,Favor,presidential election,5,11,11,13,13,1,0.07692307692307693
+Trump,Favor,the left,6,17,17,20,19,2,0.1
+Trump,Favor,echo chamber,7,10,10,12,11,2,0.16666666666666666
+Trump,Favor,illegal,8,15,15,18,16,2,0.1111111111111111
+Trump,Favor,low,9,13,13,16,15,2,0.125
+Trump,Favor,poll,10,11,11,13,13,1,0.07692307692307693
+Trump,Favor,liberals,11,25,25,36,33,2,0.05555555555555555
+Trump,Favor,chamber,12,10,10,12,11,2,0.16666666666666666
+Trump,Favor,canada,13,12,12,14,12,2,0.14285714285714285
+Trump,Favor,peace,14,14,14,16,16,1,0.0625
+Trump,Favor,echo,15,10,10,12,11,2,0.16666666666666666
+Trump,Favor,china,16,11,11,11,11,1,0.09090909090909091
+Trump,Favor,democrats are,17,10,10,10,10,1,0.1
+Trump,Favor,special,18,13,13,14,14,1,0.07142857142857142
+Trump,Favor,border,19,13,13,17,16,2,0.11764705882352941
+Trump,Favor,victory,20,25,25,31,31,1,0.03225806451612903
+Trump,Favor,mexico,21,13,13,18,16,2,0.1111111111111111
+Trump,Favor,wins,22,21,21,25,24,2,0.08
+Trump,Favor,make america,23,14,14,20,19,2,0.1
+Trump,Favor,join,24,14,14,15,14,2,0.13333333333333333
+Trump,Favor,liberal,25,24,24,34,32,2,0.058823529411764705
+Trump,Against,for as,1,215,215,217,10,184,0.847926267281106
+Trump,Against,as live,2,209,209,211,10,184,0.8720379146919431
+Trump,Against,live will,3,207,207,209,8,184,0.8803827751196173
+Trump,Against,how anyone,4,194,194,194,11,184,0.9484536082474226
+Trump,Against,anyone could,5,191,191,191,8,184,0.9633507853403142
+Trump,Against,have chosen,6,191,191,191,6,184,0.9633507853403142
+Trump,Against,once you,7,136,136,136,7,130,0.9558823529411765
+Trump,Against,you realize,8,136,136,136,6,130,0.9558823529411765
+Trump,Against,destroy them,9,134,134,134,5,130,0.9701492537313433
+Trump,Against,members to,10,134,134,134,4,130,0.9701492537313433
+Trump,Against,agencies but,11,131,131,131,2,130,0.9923664122137404
+Trump,Against,isn nominating,12,131,131,131,2,130,0.9923664122137404
+Trump,Against,makes more,13,131,131,131,2,130,0.9923664122137404
+Trump,Against,but destroy,14,130,130,130,1,130,1.0
+Trump,Against,nominating cabinet,15,130,130,130,1,130,1.0
+Trump,Against,run agencies,16,130,130,130,1,130,1.0
+Trump,Against,legacy media,17,105,105,107,7,92,0.8598130841121495
+Trump,Against,adjudicated,18,104,104,104,41,45,0.4326923076923077
+Trump,Against,echoing,19,96,96,96,5,92,0.9583333333333334
+Trump,Against,obedience,20,96,96,96,5,92,0.9583333333333334
+Trump,Against,the legacy,21,96,96,96,5,92,0.9583333333333334
+Trump,Against,anticipatory,22,94,94,94,3,92,0.9787234042553191
+Trump,Against,anticipatory obedience,23,93,93,93,2,92,0.989247311827957
+Trump,Against,appreciates your,24,92,92,92,1,92,1.0
+Trump,Against,are echoing,25,92,92,92,1,92,1.0
+Trump,Neither,former florida,1,11,11,12,12,1,0.08333333333333333
+Trump,Neither,adviser,2,13,13,13,13,1,0.07692307692307693
+Trump,Neither,users,3,11,11,11,11,1,0.09090909090909091
+Trump,Neither,the latest,4,16,16,17,17,1,0.058823529411764705
+Trump,Neither,us president,5,12,12,16,16,1,0.0625
+Trump,Neither,activist,6,10,10,10,10,1,0.1
+Trump,Neither,shift,7,10,10,11,11,1,0.09090909090909091
+Trump,Neither,ukrainian,8,12,12,14,14,1,0.07142857142857142
+Trump,Neither,european,9,11,11,12,12,1,0.08333333333333333
+Trump,Neither,sean,10,10,10,12,12,1,0.08333333333333333
+Trump,Neither,minister,11,14,14,17,17,1,0.058823529411764705
+Trump,Neither,europe,12,15,15,17,17,1,0.058823529411764705
+Trump,Neither,hush,13,12,12,14,14,1,0.07142857142857142
+Trump,Neither,hush money,14,12,12,14,14,1,0.07142857142857142
+Trump,Neither,withdrawing,15,14,14,15,14,2,0.13333333333333333
+Trump,Neither,withdrew,16,11,11,12,9,3,0.25
+Trump,Neither,de,17,19,19,39,39,1,0.02564102564102564
+Trump,Neither,but still,18,10,10,10,10,1,0.1
+Trump,Neither,to share,19,11,11,11,11,1,0.09090909090909091
+Trump,Neither,from consideration,20,13,13,15,12,3,0.2
+Trump,Neither,friday,21,11,11,14,14,1,0.07142857142857142
+Trump,Neither,uk,22,14,14,15,15,1,0.06666666666666667
+Trump,Neither,reports,23,15,15,17,17,1,0.058823529411764705
+Trump,Neither,florida,24,31,31,39,39,1,0.02564102564102564
+Trump,Neither,return to,25,18,18,18,17,2,0.1111111111111111
