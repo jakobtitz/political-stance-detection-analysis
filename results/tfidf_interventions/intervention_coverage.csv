@@ -1,0 +1,5 @@
+condition,changed_examples,total_examples,coverage_rate
+target_masked,890,890,1.0
+candidate_mentions_masked,843,890,0.9471910112359551
+lexical_cues_top10_masked,126,890,0.14157303370786517
+lexical_cues_top25_masked,275,890,0.3089887640449438
