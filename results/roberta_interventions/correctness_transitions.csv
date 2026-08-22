@@ -1,0 +1,5 @@
+condition,stable_correct_n,correct_to_wrong_n,wrong_to_correct_n,stable_wrong_n,correct_to_wrong_rate,wrong_to_correct_rate,net_correct_change
+target_masked,671,77,15,127,0.08651685393258426,0.016853932584269662,-62
+candidate_mentions_masked,474,274,55,87,0.30786516853932583,0.06179775280898876,-219
+lexical_cues_top10_masked,747,1,2,140,0.0011235955056179776,0.0022471910112359553,1
+lexical_cues_top25_masked,746,2,2,140,0.0022471910112359553,0.0022471910112359553,0

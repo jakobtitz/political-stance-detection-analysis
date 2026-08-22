@@ -1,0 +1,4 @@
+intervention,intervention_original_class_prob_change,control_original_class_prob_change_mean,control_original_class_prob_change_sd,intervention_mean_abs_prob_change,control_mean_abs_prob_change_mean,control_mean_abs_prob_change_sd
+candidate_mentions_masked,-0.33643362,-0.018844385,0.001094832201488316,0.2580362,0.022341968,0.0005475906073115766
+lexical_cues_top10_masked,-0.0019251708,-0.00075324083,0.0006245875847525895,0.0019419765,0.001269642,0.0003535475698299706
+lexical_cues_top25_masked,-0.0013954064,-0.0018752791,0.0003878750721924007,0.0037802127,0.002727379,0.00038130092434585094
