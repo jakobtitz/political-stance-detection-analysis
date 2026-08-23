@@ -14,24 +14,25 @@ The three stance classes used throughout the project are **Favor**, **Against**,
 
 The experimental pipeline consists of six main stages:
 
-1. **Preprocessing**  
+1. **Preprocessing**
    Extract and align the PolitiSky24 posting histories, retrieved context posts, stance annotations, and timestamps. Create fixed training, validation, and human-annotated test datasets.
 
-2. **Data analysis**  
+2. **Data analysis**
    Examine dataset composition, label distributions, candidate mentions, available context lengths, and evidence overlap across splits.
 
-3. **Model training**  
+3. **Model training**
    Train two models of different complexity:
-   - TF-IDF + multinomial logistic regression
-   - fine-tuned `roberta-base`
 
-4. **Input intervention construction**  
+   * TF-IDF + multinomial logistic regression
+   * fine-tuned `roberta-base`
+
+4. **Input intervention construction**
    Create controlled variants of the human-annotated test set by masking or modifying selected information sources.
 
-5. **Input intervention evaluation**  
+5. **Input intervention evaluation**
    Evaluate how the frozen TF-IDF and RoBERTa classifiers respond to the interventions.
 
-6. **Context-length analysis**  
+6. **Context-length analysis**
    Evaluate both models using different numbers of the most recent retrieved context posts.
 
 ---
@@ -42,10 +43,10 @@ The experimental pipeline consists of six main stages:
 
 The project requires:
 
-- **Python 3**
-- **Git**
-- **Git LFS**
-- the Python packages listed in `requirements.txt`
+* **Python 3**
+* **Git**
+* **Git LFS**
+* the Python packages listed in `requirements.txt`
 
 For local notebook execution, an environment capable of running Jupyter notebooks is also required.
 
@@ -59,8 +60,11 @@ The trained RoBERTa model contains large files that are tracked using **Git LFS*
 
 ```bash
 git lfs install
+
 git clone https://github.com/jakobtitz/nlp-II-politiksky24.git
+
 cd nlp-II-politiksky24
+
 git lfs pull
 ```
 
@@ -76,7 +80,9 @@ Using a virtual environment is recommended.
 
 ```bash
 python -m venv .venv
+
 source .venv/bin/activate
+
 pip install -r requirements.txt
 ```
 
@@ -84,7 +90,9 @@ pip install -r requirements.txt
 
 ```bash
 python -m venv .venv
+
 .venv\Scripts\activate
+
 pip install -r requirements.txt
 ```
 
@@ -108,7 +116,7 @@ The project is based on the **PolitiSky24** dataset, which contains political Bl
 
 The original dataset is available through Zenodo:
 
-**PolitiSky24:**  
+**PolitiSky24:**
 https://zenodo.org/records/15616911
 
 Most raw files required by the project are already included under:
@@ -176,19 +184,18 @@ To reproduce the complete pipeline from scratch, run the notebooks in the follow
         ↓
 02_data_analysis.ipynb
         ↓
-03_training_tfidf_logreg.ipynb
-03.1_training_roberta.ipynb
+03_1_train_tfidf_logreg.ipynb
+03_2_train_roberta.ipynb
         ↓
-04_select_masking_token.ipynb
+04_1_select_masking_tokens.ipynb
         ↓
-04.1_create_input_interventions.ipynb
+04_2_create_input_interventions.ipynb
         ↓
-05_evaluate_input_interventions_tfidf.ipynb
-05.1_evaluation_input_interventions_roberta.ipynb
+05_1_evaluate_input_interventions_tfidf.ipynb
+05_2_evaluate_input_interventions_roberta.ipynb
         ↓
-06_evaluate_context_length_tfidf.ipynb
-        ↓
-06.1_evaluate_context_length_roberta.ipynb
+06_1_evaluate_context_length_tfidf.ipynb
+06_2_evaluate_context_length_roberta.ipynb
 ```
 
 The preprocessing outputs, trained models, intervention datasets, and evaluation results are already included in the repository. Individual stages can therefore also be inspected or rerun without necessarily repeating all preceding stages.
@@ -221,14 +228,14 @@ nlp-II-politiksky24/
 ├── notebooks/
 │   ├── 01_preprocessing.ipynb
 │   ├── 02_data_analysis.ipynb
-│   ├── 03_training_tfidf_logreg.ipynb
-│   ├── 03.1_training_roberta.ipynb
-│   ├── 04_select_masking_token.ipynb
-│   ├── 04.1_create_input_interventions.ipynb
-│   ├── 05_evaluate_input_interventions_tfidf.ipynb
-│   ├── 05.1_evaluation_input_interventions_roberta.ipynb
-│   ├── 06_evaluate_context_length_tfidf.ipynb
-│   └── 06.1_evaluate_context_length_roberta.ipynb
+│   ├── 03_1_train_tfidf_logreg.ipynb
+│   ├── 03_2_train_roberta.ipynb
+│   ├── 04_1_select_masking_tokens.ipynb
+│   ├── 04_2_create_input_interventions.ipynb
+│   ├── 05_1_evaluate_input_interventions_tfidf.ipynb
+│   ├── 05_2_evaluate_input_interventions_roberta.ipynb
+│   ├── 06_1_evaluate_context_length_tfidf.ipynb
+│   └── 06_2_evaluate_context_length_roberta.ipynb
 │
 ├── results/
 │   ├── tfidf_interventions/
