@@ -1,0 +1,5 @@
+condition,affected_examples,affected_flip_rate,affected_original_class_prob_change,affected_mean_abs_prob_change
+target_masked,890,0.11348314606741573,-0.07821742,0.07266428
+candidate_mentions_masked,843,0.41162514827995256,-0.35519093,0.27242255
+lexical_cues_top10_masked,126,0.031746031746031744,-0.013598431,0.013717136
+lexical_cues_top25_masked,275,0.01818181818181818,-0.004516044,0.012234142
