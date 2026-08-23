@@ -1,0 +1,17 @@
+{
+    "model": "roberta-base",
+    "best_checkpoint": "checkpoint-1606",
+    "best_validation_macro_f1": 0.8399454900126515,
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "train_batch_size": 8,
+    "gradient_accumulation_steps": 2,
+    "effective_batch_size": 16,
+    "max_length": 512,
+    "seed": 42,
+    "label2id": {
+        "Against": 0,
+        "Favor": 1,
+        "Neither": 2
+    }
+}
