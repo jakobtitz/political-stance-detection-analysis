@@ -61,9 +61,10 @@ The trained RoBERTa model and several other large files are tracked using **Git 
 ```bash
 git lfs install
 
-git clone https://github.com/jakobtitz/nlp-II-politiksky24.git
+git clone https://github.com/jakobtitz/political-stance-detection-analysis.git
 
-cd nlp-II-politiksky24
+cd political-stance-detection-analysis
+
 
 git lfs pull
 ```
@@ -243,8 +244,7 @@ The preprocessing outputs, trained models, intervention datasets, and evaluation
 # Repository Structure
 
 ```text
-nlp-II-politiksky24/
-│
+political-stance-detection-analysis│
 ├── data/
 │   ├── raw/
 │   │   └── ...                         # Original PolitiSky24 datasets
