@@ -44,7 +44,7 @@ The experimental pipeline consists of six main stages:
 The project requires:
 
 * **Python 3**
-* **Git**
+* **Git 2.45.2 or newer**
 * **Git LFS**
 * the Python packages listed in `requirements.txt`
 
@@ -56,7 +56,7 @@ The RoBERTa experiments are computationally more expensive and are intended to b
 
 ## Clone the Repository
 
-The trained RoBERTa model contains large files that are tracked using **Git LFS**. Git LFS should therefore be installed before cloning the repository.
+The trained RoBERTa model and several other large files are tracked using **Git LFS**. Git LFS should therefore be installed before cloning the repository.
 
 ```bash
 git lfs install
@@ -68,7 +68,45 @@ cd nlp-II-politiksky24
 git lfs pull
 ```
 
-`git lfs pull` ensures that the actual RoBERTa model files are downloaded rather than only the Git LFS pointer files.
+`git lfs pull` ensures that the actual large files are downloaded rather than only the Git LFS pointer files.
+
+### Git version
+
+Git 2.45.1 introduced a known clone regression affecting repositories that use Git LFS. This can result in an error such as:
+
+```text
+fatal: active `post-checkout` hook found during `git clone`
+```
+
+The problem is documented in the official Git LFS repository:
+
+[Git LFS issue #5749 — Recent Git security releases break `git clone` on repositories using LFS](https://github.com/git-lfs/git-lfs/issues/5749)
+
+Please use **Git 2.45.2 or newer** when cloning the repository. The installed Git version can be checked with:
+
+```bash
+git --version
+```
+
+### Clone duration
+
+Cloning the repository can take several minutes because Git LFS has to download the trained RoBERTa model and other relatively large files. During this process, the terminal may remain at the same percentage for some time while an individual LFS object is being downloaded or processed. This does not necessarily indicate that the clone has stalled.
+
+On **Windows PowerShell**, the activity of the Git LFS process can be inspected with:
+
+```powershell
+Get-Process git-lfs -ErrorAction SilentlyContinue | Select-Object Id, CPU, WorkingSet
+```
+
+Running this command repeatedly while the clone is in progress shows the accumulated CPU time of the `git-lfs` process. If the `CPU` value continues to increase, Git LFS is still actively processing files.
+
+The clone is complete once Git reports:
+
+```text
+Filtering content: 100% (...), done.
+```
+
+and the normal terminal prompt becomes available again.
 
 ---
 
@@ -259,5 +297,3 @@ nlp-II-politiksky24/
 ├── requirements.txt
 └── README.md
 ```
-
----
