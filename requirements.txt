@@ -1,0 +1,10 @@
+numpy
+pandas
+pyarrow
+scikit-learn
+joblib
+matplotlib
+torch
+transformers
+accelerate
+ipykernel
