@@ -139,11 +139,19 @@ pip install -r requirements.txt
 
 ## Usage
 
-The project is implemented as a sequence of Jupyter notebooks. For local execution, start Jupyter from the repository root:
+The project is implemented as a sequence of Jupyter notebooks.
 
-```bash
+For local execution, the notebooks can be opened directly in Visual Studio Code using the Python and Jupyter extensions or through JupyterLab.
+
+If JupyterLab is not already installed, install it separately with:
+
+pip install jupyterlab
+
+Then start JupyterLab from the repository root:
+
 jupyter lab
-```
+
+JupyterLab is intentionally not included in requirements.txt because it is only required for local notebook execution. In particular, Google Colab already provides its own notebook environment, and installing JupyterLab there would add unnecessary notebook-related dependencies.
 
 The notebooks can then be run in the order described below. Each notebook is designed to be executed from top to bottom.
 
